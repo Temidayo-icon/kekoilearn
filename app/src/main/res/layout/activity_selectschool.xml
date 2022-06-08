@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".selectschool">
+
+    <EditText
+        android:id="@+id/etnoys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Enter the name of your school"
+        android:background="#30ffff" android:layout_margin="18dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:drawablePadding="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterbtn"
+        android:layout_below="@+id/etnoys"
+        android:layout_centerHorizontal="true"
+        android:text="ENTER"
+        android:textStyle="bold"
+        android:layout_margin="40dp"
+        />
+
+</RelativeLayout>

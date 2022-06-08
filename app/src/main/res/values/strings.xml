@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">keko(ilearn)</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">2wGtQ6MJHyNkwxLhhDKFMYTJJhYLXgqB4DZMn9Yn</string>
+    <string name="back4app_client_key">yAMVaacAN7fNd380dtkaNd3PrqzwETLBmv74W4DA</string>
+
+
+</resources>
